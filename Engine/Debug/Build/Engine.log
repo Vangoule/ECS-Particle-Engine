@@ -1,0 +1,14 @@
+﻿  WindowManager.cpp
+  TimestepLite.cpp
+  Timestep.cpp
+  Timer.cpp
+  Stopwatch.cpp
+  FpsLite.cpp
+  Duration.cpp
+  Continuum.cpp
+  BasicClock.cpp
+  Absorel.cpp
+  Scheduler.cpp
+  Core.cpp
+  Generating Code...
+  Engine.vcxproj -> C:\Coding\C++\Projects\DOI\Debug\Engine.lib

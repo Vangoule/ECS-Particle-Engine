@@ -1,0 +1,93 @@
+﻿  Game.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+  Generating Code...
+Engine.lib(btDefaultCollisionConfiguration.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btDefaultCollisionConfiguration.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btConvexConvexAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btConvexConvexAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btEmptyCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btEmptyCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btConvexConcaveCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btConvexConcaveCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btCompoundCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btCompoundCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btCompoundCompoundCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btCompoundCompoundCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btConvexPlaneCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btConvexPlaneCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btBoxBoxCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btBoxBoxCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btSphereSphereCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btSphereSphereCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btSphereTriangleCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btSphereTriangleCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btActivatingCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btActivatingCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btPersistentManifold.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btPersistentManifold.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btManifoldResult.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btManifoldResult.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btPolyhedralContactClipping.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btPolyhedralContactClipping.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btCollisionShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btCollisionShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btConvexShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btConvexShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btConvexPolyhedron.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btConvexPolyhedron.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btPolyhedralConvexShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btPolyhedralConvexShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btSdfCollisionShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btSdfCollisionShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btHashedSimplePairCache.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btHashedSimplePairCache.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+Engine.lib(btMiniSDF.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Game.obj
+Engine.lib(btMiniSDF.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MDd_DynamicDebug' in Game.obj
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+Engine.lib(btHashedSimplePairCache.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btMiniSDF.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btSphereTriangleCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btPolyhedralContactClipping.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btConvexPolyhedron.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btPolyhedralConvexShape.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btCompoundCompoundCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btConvexPlaneCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btBoxBoxCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btSphereSphereCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btDefaultCollisionConfiguration.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btConvexConvexAlgorithm.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btConvexConcaveCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btCompoundCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z)
+Engine.lib(btGjkEpa2.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btConcaveShape.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btMiniSDF.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btConvexPolyhedron.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btPolyhedralConvexShape.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btSdfCollisionShape.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btHashedSimplePairCache.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btSphereTriangleCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btPolyhedralContactClipping.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btConvexShape.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btConvexInternalShape.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btCompoundCompoundCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btConvexPlaneCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btBoxBoxCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btSphereSphereCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btDefaultCollisionConfiguration.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btConvexConvexAlgorithm.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btConvexConcaveCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btCompoundCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z)
+Engine.lib(btConvexConcaveCollisionAlgorithm.obj) : error LNK2019: unresolved external symbol "public: __thiscall CProfileSample::CProfileSample(char const *)" (??0CProfileSample@@QAE@PBD@Z) referenced in function "public: virtual void __thiscall btConvexConcaveCollisionAlgorithm::processCollision(struct btCollisionObjectWrapper const *,struct btCollisionObjectWrapper const *,struct btDispatcherInfo const &,class btManifoldResult *)" (?processCollision@btConvexConcaveCollisionAlgorithm@@UAEXPBUbtCollisionObjectWrapper@@0ABUbtDispatcherInfo@@PAVbtManifoldResult@@@Z)
+Engine.lib(btCompoundCompoundCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "public: __thiscall CProfileSample::CProfileSample(char const *)" (??0CProfileSample@@QAE@PBD@Z)
+Engine.lib(btConvexConcaveCollisionAlgorithm.obj) : error LNK2019: unresolved external symbol "public: __thiscall CProfileSample::~CProfileSample(void)" (??1CProfileSample@@QAE@XZ) referenced in function "public: virtual void __thiscall btConvexConcaveCollisionAlgorithm::processCollision(struct btCollisionObjectWrapper const *,struct btCollisionObjectWrapper const *,struct btDispatcherInfo const &,class btManifoldResult *)" (?processCollision@btConvexConcaveCollisionAlgorithm@@UAEXPBUbtCollisionObjectWrapper@@0ABUbtDispatcherInfo@@PAVbtManifoldResult@@@Z)
+Engine.lib(btCompoundCompoundCollisionAlgorithm.obj) : error LNK2001: unresolved external symbol "public: __thiscall CProfileSample::~CProfileSample(void)" (??1CProfileSample@@QAE@XZ)
+Engine.lib(btConvexShape.obj) : error LNK2019: unresolved external symbol "long __cdecl _maxdot_large(float const *,float const *,unsigned long,float *)" (?_maxdot_large@@YAJPBM0KPAM@Z) referenced in function "class btVector3 __cdecl convexHullSupport(class btVector3 const &,class btVector3 const *,int,class btVector3 const &)" (?convexHullSupport@@YA?AVbtVector3@@ABV1@PBV1@H0@Z)
+Engine.lib(btPolyhedralConvexShape.obj) : error LNK2001: unresolved external symbol "long __cdecl _maxdot_large(float const *,float const *,unsigned long,float *)" (?_maxdot_large@@YAJPBM0KPAM@Z)
+Engine.lib(btPolyhedralConvexShape.obj) : error LNK2019: unresolved external symbol "private: float __thiscall btConvexHullComputer::compute(void const *,bool,int,int,float,float)" (?compute@btConvexHullComputer@@AAEMPBX_NHHMM@Z) referenced in function "public: virtual bool __thiscall btPolyhedralConvexShape::initializePolyhedralFeatures(int)" (?initializePolyhedralFeatures@btPolyhedralConvexShape@@UAE_NH@Z)
+Engine.lib(btPolyhedralConvexShape.obj) : error LNK2019: unresolved external symbol "public: static void __cdecl btGeometryUtil::getPlaneEquationsFromVertices(class btAlignedObjectArray<class btVector3> &,class btAlignedObjectArray<class btVector3> &)" (?getPlaneEquationsFromVertices@btGeometryUtil@@SAXAAV?$btAlignedObjectArray@VbtVector3@@@@0@Z) referenced in function "public: virtual bool __thiscall btPolyhedralConvexShape::initializePolyhedralFeatures(int)" (?initializePolyhedralFeatures@btPolyhedralConvexShape@@UAE_NH@Z)
+Engine.lib(btPolyhedralConvexShape.obj) : error LNK2019: unresolved external symbol "public: static void __cdecl btGeometryUtil::getVerticesFromPlaneEquations(class btAlignedObjectArray<class btVector3> const &,class btAlignedObjectArray<class btVector3> &)" (?getVerticesFromPlaneEquations@btGeometryUtil@@SAXABV?$btAlignedObjectArray@VbtVector3@@@@AAV2@@Z) referenced in function "public: virtual bool __thiscall btPolyhedralConvexShape::initializePolyhedralFeatures(int)" (?initializePolyhedralFeatures@btPolyhedralConvexShape@@UAE_NH@Z)
+C:\Coding\C++\Projects\DOI\Debug\Game.exe : fatal error LNK1120: 8 unresolved externals

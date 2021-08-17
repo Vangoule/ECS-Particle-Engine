@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{73b3edba-9a41-44f3-9766-e714b9fc05cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager">
+      <UniqueIdentifier>{47d2b1f2-6a08-484e-a357-cd1a6eafe9ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{a5b0a5f8-98b4-4dbc-8344-8d88dbaefe70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{46442a60-6086-44fb-9cf8-4cd7e1d9134d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{34143c24-6611-4f61-964d-5c0fbec1886a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{2e5bcb21-aa43-48e0-a623-5b49810ad769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Iterator">
+      <UniqueIdentifier>{7c77c15f-57c8-4f30-99f6-14426214215f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Iterator">
+      <UniqueIdentifier>{d228d6ac-7dcf-4817-928f-d8699ad01bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kairos">
+      <UniqueIdentifier>{4e1c4974-59c4-4339-8867-f4814b561797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kairos">
+      <UniqueIdentifier>{b736ba88-ab6c-4c6d-9b70-a3e5df4d89ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\WindowManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Logger.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scheduler.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\TaskManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\EnvironmentManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SystemManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GraphicsSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Entity.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\EntityIterator.cpp">
+      <Filter>Source Files\Framework\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\ShaderManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Shader.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="System\TransformSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Absorel.cpp">
+      <Filter>Source Files\Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\BasicClock.cpp">
+      <Filter>Source Files\Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Continuum.cpp">
+      <Filter>Source Files\Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Duration.cpp">
+      <Filter>Source Files\Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\FpsLite.cpp">
+      <Filter>Source Files\Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Stopwatch.cpp">
+      <Filter>Source Files\Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Timer.cpp">
+      <Filter>Source Files\Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Timestep.cpp">
+      <Filter>Source Files\Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\TimestepLite.cpp">
+      <Filter>Source Files\Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="System\InputSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Texture.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="System\AsyncLoadSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\SoundSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\WindowManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Logger.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scheduler.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Manager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\TaskManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Component.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\EnvironmentManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\ServiceManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\StateManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SystemManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\ISystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GraphicsSystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Entity.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ComponentHandle.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ComponentContainer.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Allocators.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\EntityComponentIterator.h">
+      <Filter>Header Files\Framework\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\EntityComponentView.h">
+      <Filter>Header Files\Framework\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\EntityIterator.h">
+      <Filter>Header Files\Framework\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\EntityView.h">
+      <Filter>Header Files\Framework\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Allocators.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\ShaderManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Shader.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\TransformSystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GraphicsSystemComponents.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\TransformSystemComponents.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Absorel.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\all.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\BasicClock.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Continuum.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Duration.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\FpsLite.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Stopwatch.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Timer.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Timestep.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\TimestepLite.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Yalpes.hpp">
+      <Filter>Header Files\Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="System\InputSystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\InputSystemComponents.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Texture.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\AsyncLoadSystemComponents.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\AsyncLoadSystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\SoundSystemComponents.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\SoundSystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kairos\Absorel.inl">
+      <Filter>Header Files\Kairos</Filter>
+    </None>
+  </ItemGroup>
+</Project>

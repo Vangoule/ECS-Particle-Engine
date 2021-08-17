@@ -1,0 +1,28 @@
+﻿  PhysicsSystem.cpp
+c:\coding\c++\projects\doi\engine\framework\physicscomponents.h(34): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+c:\coding\c++\projects\doi\engine\system\physicssystem.cpp(33): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+c:\coding\c++\projects\doi\engine\system\physicssystem.cpp(107): warning C4102: 'std': unreferenced label
+c:\coding\c++\projects\doi\engine\system\physicssystem.cpp(191): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+c:\coding\c++\projects\doi\engine\system\physicssystem.cpp(193): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+c:\coding\c++\projects\doi\engine\system\physicssystem.cpp(196): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+c:\coding\c++\projects\doi\engine\system\physicssystem.cpp(197): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+c:\coding\c++\projects\doi\engine\system\physicssystem.cpp(198): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+  InputSystem.cpp
+c:\coding\c++\projects\doi\engine\system\inputsystem.h(8): fatal error C1083: Cannot open include file: 'Manager\Texture.h': No such file or directory
+  GraphicsSystem.cpp
+c:\coding\c++\projects\doi\engine\system\graphicssystem.h(8): fatal error C1083: Cannot open include file: 'Manager\Texture.h': No such file or directory
+  WindowManager.cpp
+  Shader.cpp
+c:\coding\c++\projects\doi\engine\framework\graphicscomponents.h(8): fatal error C1083: Cannot open include file: 'Manager\Texture.h': No such file or directory
+  SceneManager.cpp
+c:\coding\c++\projects\doi\engine\system\inputsystem.h(8): fatal error C1083: Cannot open include file: 'Manager\Texture.h': No such file or directory
+  Scheduler.cpp
+  Core.cpp
+  Generating Code...
+  Compiling...
+  Texture.cpp
+  Generating Code...
+  Compiling...
+  ShaderManager.cpp
+c:\coding\c++\projects\doi\engine\framework\graphicscomponents.h(8): fatal error C1083: Cannot open include file: 'Manager\Texture.h': No such file or directory
+  Generating Code...

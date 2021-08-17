@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{046c8332-dec0-44ea-9737-b6a046b7a4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1dc29719-7518-4461-8c51-a969dfabac0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{f66deac9-4c73-4427-b886-62d73238da4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kairos">
+      <UniqueIdentifier>{f70f27de-859f-4b75-8f95-c269a09284ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager">
+      <UniqueIdentifier>{b3bb520a-353f-4570-82bf-b12c47f89f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{c5166ecd-a87b-4751-9dca-e738c2e91139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{0e87613a-3d10-41db-8605-dcceed20b8af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{157838b8-9e31-41b1-ae02-974fc3422330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{e04dc8c7-f0cc-4c83-992d-874518b93007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{d11fb562-5b1d-48aa-85d5-8fd5a6b13a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{93199eba-2d07-4a6a-a0b7-1e18325a20d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Components">
+      <UniqueIdentifier>{74009910-463b-4282-b1dc-650ef3deb2e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Absorel.cpp">
+      <Filter>Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\BasicClock.cpp">
+      <Filter>Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Continuum.cpp">
+      <Filter>Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Duration.cpp">
+      <Filter>Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\FpsLite.cpp">
+      <Filter>Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Stopwatch.cpp">
+      <Filter>Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Timer.cpp">
+      <Filter>Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\Timestep.cpp">
+      <Filter>Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Kairos\TimestepLite.cpp">
+      <Filter>Kairos</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\WindowManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scheduler.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\ShaderManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Texture.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Shader.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="System\InputSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GraphicsSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\PhysicsSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\ParticleSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\InputManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\GUIManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Absorel.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\all.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\BasicClock.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Continuum.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Duration.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\FpsLite.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Stopwatch.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Timer.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Timestep.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\TimestepLite.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Kairos\Yalpes.hpp">
+      <Filter>Kairos</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Logger.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Log.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Manager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\WindowManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scheduler.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\ShaderManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Shader.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Texture.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ECS.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\InputSystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GraphicsSystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\InputComponents.h">
+      <Filter>Header Files\Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\PhysicsComponents.h">
+      <Filter>Header Files\Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GraphicsComponents.h">
+      <Filter>Header Files\Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\TransformComponents.h">
+      <Filter>Header Files\Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="System\PhysicsSystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\ParticleSystem.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ParticleComponents.h">
+      <Filter>Header Files\Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\InputManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\GUIManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kairos\Absorel.inl">
+      <Filter>Kairos</Filter>
+    </None>
+    <None Include="Kairos\Yalpes.inl">
+      <Filter>Kairos</Filter>
+    </None>
+  </ItemGroup>
+</Project>

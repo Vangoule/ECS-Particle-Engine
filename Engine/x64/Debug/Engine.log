@@ -1,0 +1,38 @@
+﻿  Core.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Core.h(3,10): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  Scheduler.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Framework\Scheduler.h(1,10): fatal error C1083: Cannot open include file: 'SFML/System.hpp': No such file or directory
+  Absorel.cpp
+  BasicClock.cpp
+  Continuum.cpp
+  Duration.cpp
+  FpsLite.cpp
+  Stopwatch.cpp
+  Timer.cpp
+  Timestep.cpp
+  TimestepLite.cpp
+  GUIManager.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\Manager.h(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  InputManager.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\Manager.h(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  SceneManager.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\Manager.h(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Shader.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\Shader.h(4,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  ShaderManager.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\Manager.h(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Texture.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\Texture.h(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  WindowManager.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\WindowManager.h(3,10): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  GraphicsSystem.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\WindowManager.h(3,10): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  InputSystem.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\WindowManager.h(3,10): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  Generating Code...
+  Compiling...
+  ParticleSystem.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\WindowManager.h(3,10): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  PhysicsSystem.cpp
+D:\Coding\C++\Projects\DOI - Copy\ECS Particle Engine\Engine\Manager\WindowManager.h(3,10): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  Generating Code...

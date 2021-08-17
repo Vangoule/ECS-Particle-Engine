@@ -1,0 +1,70 @@
+﻿  Core.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(35,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(36,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Scheduler.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(35,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(36,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GUIManager.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(35,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(36,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\PhysicsComponents.h(34,16): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+  InputManager.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(35,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(36,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\PhysicsComponents.h(34,16): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\InputManager.cpp(135,60): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\InputManager.cpp(135,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  SceneManager.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(35,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(36,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\PhysicsComponents.h(34,16): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\SceneManager.cpp(145,21): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\SceneManager.cpp(229,21): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\ECS.h(1083,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\SceneManager.cpp(159): message : see reference to function template instantiation 'ECS::ComponentHandle<DOI::CameraComponent> ECS::Entity::assign<DOI::CameraComponent,glm::vec3,glm::vec3,glm::vec3,int,int,int>(glm::vec3 &&,glm::vec3 &&,glm::vec3 &&,int &&,int &&,int &&)' being compiled
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\ECS.h(1094,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Shader.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\PhysicsComponents.h(34,16): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(35,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(36,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  ShaderManager.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\PhysicsComponents.h(34,16): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+  GraphicsSystem.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(35,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(36,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\PhysicsComponents.h(34,16): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\GraphicsSystem.cpp(83,23): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\GraphicsSystem.cpp(372,21): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\GraphicsSystem.cpp(391,21): warning C4018: '<': signed/unsigned mismatch
+  InputSystem.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(35,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(36,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\PhysicsComponents.h(34,16): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\ECS.h(1083,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\InputSystem.cpp(289): message : see reference to function template instantiation 'ECS::ComponentHandle<DOI::ParticleComponent> ECS::Entity::assign<DOI::ParticleComponent,Texture*&,int,int,int>(Texture *&,int &&,int &&,int &&)' being compiled
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\ECS.h(1094,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  ParticleSystem.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(35,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(36,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\PhysicsComponents.h(34,16): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\ParticleSystem.cpp(220,13): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\ParticleSystem.cpp(250,19): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+  PhysicsSystem.cpp
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(35,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Manager\WindowManager.h(36,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\Framework\PhysicsComponents.h(34,16): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\PhysicsSystem.cpp(34,52): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\PhysicsSystem.cpp(203,17): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\PhysicsSystem.cpp(205,32): warning C4244: 'argument': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\PhysicsSystem.cpp(208,28): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\PhysicsSystem.cpp(209,23): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+D:\Coding\C++\Projects\DOI - Copy\Engine\System\PhysicsSystem.cpp(210,26): warning C4244: '=': conversion from 'double' to 'btScalar', possible loss of data
+ILUT.lib(ILUT.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in ILU.lib(ILU.dll); second definition ignored
+DevIL.lib(DevIL.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in ILU.lib(ILU.dll); second definition ignored
+glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in ILU.lib(ILU.dll); second definition ignored
+opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in ILU.lib(ILU.dll); second definition ignored
+sfml-system.lib(sfml-system-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in ILU.lib(ILU.dll); second definition ignored
+sfml-window.lib(sfml-window-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in ILU.lib(ILU.dll); second definition ignored
+sfml-audio.lib(sfml-audio-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in ILU.lib(ILU.dll); second definition ignored
+sfml-graphics.lib(sfml-graphics-2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in ILU.lib(ILU.dll); second definition ignored
+  Engine.vcxproj -> D:\Coding\C++\Projects\DOI - Copy\Release\Engine.lib

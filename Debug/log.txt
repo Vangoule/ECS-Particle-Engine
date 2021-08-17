@@ -1,0 +1,2 @@
+000: <2018-11-07 : 21:36:50 - 3> ~ <DEBUG> : Engine has been initialized!
+001: <2018-11-07 : 21:36:50 - 3> ~ <DEBUG> : Engine is being shutdown!

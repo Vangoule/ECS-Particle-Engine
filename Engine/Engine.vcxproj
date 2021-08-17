@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="Framework\Scheduler.cpp" />
+    <ClCompile Include="Kairos\Absorel.cpp" />
+    <ClCompile Include="Kairos\BasicClock.cpp" />
+    <ClCompile Include="Kairos\Continuum.cpp" />
+    <ClCompile Include="Kairos\Duration.cpp" />
+    <ClCompile Include="Kairos\FpsLite.cpp" />
+    <ClCompile Include="Kairos\Stopwatch.cpp" />
+    <ClCompile Include="Kairos\Timer.cpp" />
+    <ClCompile Include="Kairos\Timestep.cpp" />
+    <ClCompile Include="Kairos\TimestepLite.cpp" />
+    <ClCompile Include="Manager\GUIManager.cpp" />
+    <ClCompile Include="Manager\InputManager.cpp" />
+    <ClCompile Include="Manager\SceneManager.cpp" />
+    <ClCompile Include="Manager\Shader.cpp" />
+    <ClCompile Include="Manager\ShaderManager.cpp" />
+    <ClCompile Include="Manager\Texture.cpp" />
+    <ClCompile Include="Manager\WindowManager.cpp" />
+    <ClCompile Include="System\GraphicsSystem.cpp" />
+    <ClCompile Include="System\InputSystem.cpp" />
+    <ClCompile Include="System\ParticleSystem.cpp" />
+    <ClCompile Include="System\PhysicsSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h" />
+    <ClInclude Include="Framework\ECS.h" />
+    <ClInclude Include="Framework\GraphicsComponents.h" />
+    <ClInclude Include="Framework\InputComponents.h" />
+    <ClInclude Include="Framework\ParticleComponents.h" />
+    <ClInclude Include="Framework\PhysicsComponents.h" />
+    <ClInclude Include="Framework\Scheduler.h" />
+    <ClInclude Include="Framework\TransformComponents.h" />
+    <ClInclude Include="Kairos\Absorel.hpp" />
+    <ClInclude Include="Kairos\all.hpp" />
+    <ClInclude Include="Kairos\BasicClock.hpp" />
+    <ClInclude Include="Kairos\Continuum.hpp" />
+    <ClInclude Include="Kairos\Duration.hpp" />
+    <ClInclude Include="Kairos\FpsLite.hpp" />
+    <ClInclude Include="Kairos\Stopwatch.hpp" />
+    <ClInclude Include="Kairos\Timer.hpp" />
+    <ClInclude Include="Kairos\Timestep.hpp" />
+    <ClInclude Include="Kairos\TimestepLite.hpp" />
+    <ClInclude Include="Kairos\Yalpes.hpp" />
+    <ClInclude Include="Manager\GUIManager.h" />
+    <ClInclude Include="Manager\InputManager.h" />
+    <ClInclude Include="Manager\Manager.h" />
+    <ClInclude Include="Manager\SceneManager.h" />
+    <ClInclude Include="Manager\Shader.h" />
+    <ClInclude Include="Manager\ShaderManager.h" />
+    <ClInclude Include="Manager\Texture.h" />
+    <ClInclude Include="Manager\WindowManager.h" />
+    <ClInclude Include="System\GraphicsSystem.h" />
+    <ClInclude Include="System\InputSystem.h" />
+    <ClInclude Include="System\ParticleSystem.h" />
+    <ClInclude Include="System\PhysicsSystem.h" />
+    <ClInclude Include="Utils\Log.h" />
+    <ClInclude Include="Utils\Logger.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kairos\Absorel.inl" />
+    <None Include="Kairos\Yalpes.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FC5F7A3C-F65F-4D66-8188-68B829ADEF59}</ProjectGuid>
+    <RootNamespace>VE</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\Coding\C++\Requirements\bullet3_x86-windows\include\bullet;C:\Coding\C++\Projects\DOI - Copy\Engine;D:\Coding\C++\Requirements\DevIL Windows SDK\include;D:\Coding\C++\Requirements\glew-2.1.0\include;D:\Coding\C++\Requirements\SFML-2.5.1\include;D:\Coding\C++\Requirements\glm;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Coding\C++\Requirements\bullet3_x86-windows\lib;D:\Coding\C++\Requirements\DevIL Windows SDK\lib\x86\Release;D:\Coding\C++\Requirements\glew-2.1.0\lib\Release\Win32;D:\Coding\C++\Requirements\SFML-2.5.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>D:\Coding\C++\Requirements\bullet3_x86-windows\include\bullet;C:\Coding\C++\Projects\DOI - Copy\Engine;D:\Coding\C++\Requirements\DevIL Windows SDK\include;D:\Coding\C++\Requirements\glew-2.1.0\include;D:\Coding\C++\Requirements\SFML-2.5.1\include;D:\Coding\C++\Requirements\glm;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Coding\C++\Requirements\bullet3_x86-windows\lib;D:\Coding\C++\Requirements\DevIL Windows SDK\lib\x86\Release;D:\Coding\C++\Requirements\glew-2.1.0\lib\Release\Win32;D:\Coding\C++\Requirements\SFML-2.5.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\C++\Requirements\bullet3-master\src;C:\Coding\C++\Requirements\DevIL Windows SDK\include;C:\Coding\C++\Requirements\enkiTS-master\src;C:\Coding\C++\Requirements\glew-2.1.0\include;C:\Coding\C++\Requirements\glm-0.9.9;C:\Coding\C++\Requirements\SFML-2.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;enkiTS.lib;DevIL.lib;ILU.lib;ILUT.lib;sfml-main-d.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-graphics-d.lib;tbb_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>C:\Coding\C++\Requirements\bullet3-master\bin;C:\Coding\C++\Requirements\DevIL Windows SDK\lib\x86\Release;C:\Coding\C++\Requirements\glew-2.1.0\lib\Release\Win32;C:\Coding\C++\Requirements\SFML-2.5.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ILU.lib;ILUT.lib;DevIL.lib;BulletCollision.lib;BulletDynamics.lib;opengl32.lib;glew32.lib;sfml-main-d.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-graphics-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Coding\C++\Requirements\bullet3-master\src;C:\Coding\C++\Projects\DOI\Engine;C:\Coding\C++\Requirements\DevIL Windows SDK\include;C:\Coding\C++\Requirements\enkiTS-master\src;C:\Coding\C++\Requirements\glew-2.1.0\include;C:\Coding\C++\Requirements\glm-0.9.9;C:\Coding\C++\Requirements\SFML-2.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;enkiTS.lib;DevIL.lib;ILU.lib;ILUT.lib;sfml-main.lib;sfml-system.lib;sfml-window.lib;sfml-audio.lib;sfml-graphics.lib;tbb.lib</AdditionalDependencies>
+    </Link>
+    <Lib />
+    <Lib>
+      <AdditionalLibraryDirectories>C:\Coding\C++\Requirements\bullet3-master\bin;C:\Coding\C++\Requirements\DevIL Windows SDK\lib\x86\Release;C:\Coding\C++\Requirements\glew-2.1.0\lib\Release\Win32;C:\Coding\C++\Requirements\SFML-2.5.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ILU.lib;ILUT.lib;DevIL.lib;BulletCollision.lib;BulletDynamics.lib;LinearMath.lib;glew32.lib;opengl32.lib;sfml-main.lib;sfml-system.lib;sfml-window.lib;sfml-audio.lib;sfml-graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
